@@ -9,6 +9,6 @@ import screenshot_video
 # root.config(bg="blue4")
 # root.resizable(0, 0)
             
-screenshot_video.capture_images("../GetFit/TikTok.mov", "../GetFit/ScreenShots", .1, 20)
+screenshot_video.capture_images("../GetFit/Workout_2.mp4", "../GetFit/ScreenShots", .5)
 
 # root.mainloop()
