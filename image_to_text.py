@@ -22,6 +22,6 @@ def compile_text_to_workouts(text):
     for x in workouts:
         print (x)
 
-letters = (pytesseract.image_to_string(r'../GetFit/workout_routine.jpeg'))
+letters = (pytesseract.image_to_string(r'../GetFit/workout_routine1.png'))
 text_words = re.findall(r'\w+', letters)
 compile_text_to_workouts(text_words)
