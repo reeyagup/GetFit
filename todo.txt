@@ -1,2 +1,3 @@
-1.) get it to take screenshots every second
-2.) get it to read text from an image
+1.) get it to take screenshots every second: https://www.codegrepper.com/code-examples/python/take+screenshot+of+video+python
+
+2.) get it to read text from an image: https://towardsdatascience.com/how-to-extract-text-from-images-with-python-db9b87fe432b
