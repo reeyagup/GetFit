@@ -1,0 +1,2 @@
+1.) get it to take screenshots every second
+2.) get it to read text from an image
