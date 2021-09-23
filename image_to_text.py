@@ -22,17 +22,10 @@ def compile_text_to_workouts(text):
         while num < len(text) and not text[num].isdigit() :
             new_workout.exercise_name +=  " " + str(text[num]) 
             num +=1
-        workouts.append(new_workout)
-    
-    num = 0
-    for x in workouts:
-        if(x.reps == 0 or x.exercise_name == ""):
-           print("zero")
-           workouts.pop(num)
-        num +=1
-    
-    for y in workouts:
-        print(y.reps ," , ", str(y.exercise_name))
+        if not new_workout.reps == 0 or not new_workout.exercise_name == "":
+            workouts.append(new_workout)
+
+    return workouts
 
 
         
