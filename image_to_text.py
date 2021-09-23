@@ -28,8 +28,10 @@ def compile_text_to_workouts(text):
     return workouts
 
 
-        
+####MAIN:###############################################################        
 
 letters = (pytesseract.image_to_string(r'../GetFit/workout_routine1.png'))
-text_words = re.findall(r'\w+', letters)
-compile_text_to_workouts(text_words)
+print(letters)
+sentence = re.findall(r'\w+', letters) ##turns letters into words and makes list
+print(sentence)
+compile_text_to_workouts(sentence) ###turns into actual workout routine
